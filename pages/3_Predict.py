@@ -120,8 +120,10 @@ def main():
 
     df = download_stock_data(stock_symbol, start_date, end_date)
     
-    size = st.text_input('Enter the number of days to predicted')
-    
+    #size = st.text_input('Enter the number of days to predicted')
+    # Input for number of days to predict
+    size = st.number_input('Enter the number of days to predict', min_value=1, value=7, step=1, format='%d')
+
         
     p_value = st.text_input('Enter the P')
     q_value = st.text_input('Enter the q')
