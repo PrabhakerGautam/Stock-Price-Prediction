@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Stock Price Prediction",
                    layout='wide',
-                   page_icon='./images/stock_icon.png')
+                   page_icon='./images/home.png')
 
 st.title("Stock Price Prediction App")
 st.caption('This web application predicts stock prices based on historical data.')
