@@ -167,8 +167,8 @@ def main():
             # Plot original data and forecasted values
             fig, ax = plt.subplots(figsize=(10, 6))
             ax.plot(df['Close'][TRAIN_LEN:], label='Original Data')
-            ax.plot(test['pred_ARIMA'], 'k--', label='ARIMA')
-            ax.set_title(f'Forecast for {key_}')
+            ax.plot(test['pred_ARIMA'], 'k--', label='Pedicted')
+            ax.set_title(f'Prediction for {key_}')
             #ax.set_title(f'Forecast for {stock_symbol}')
             ax.set_xlabel('Date')
             ax.set_ylabel('Price (USD)')
