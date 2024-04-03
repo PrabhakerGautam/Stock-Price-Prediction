@@ -25,6 +25,10 @@ warnings.filterwarnings('ignore')
 
 # Disable warning about passing a figure to st.pyplot()
 st.set_option('deprecation.showPyplotGlobalUse', False)
+# Set page title and icon
+st.set_page_config(page_title="Predict", page_icon="./images/object.png")
+
+
 
 # Define the stock symbols
 stock_symbols = { 'Google':'GOOGL', 'Apple':'AAPL',
