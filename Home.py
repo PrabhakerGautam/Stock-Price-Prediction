@@ -13,6 +13,7 @@ st.markdown("""
 
 This app predicts the future stock prices of a selected company using historical data.
 You can select a company from the dropdown menu and adjust the parameters accordingly.
+Below are some of the companies available in the dropdown menu:
 
 1. Google
 2. Apple
