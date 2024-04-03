@@ -109,7 +109,7 @@ def get_key(dictionary, value):
 size = 1
 
 def main():
-    st.title('Model Optimization')
+    st.title('Model Prediction')
     col1, col2, col3 = st.columns(3)
 
     with col1:
