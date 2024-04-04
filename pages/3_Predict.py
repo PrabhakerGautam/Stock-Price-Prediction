@@ -113,7 +113,7 @@ def main():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        selected_stock = st.selectbox('Select stock symbol:', list(stock_symbols.items()), format_func=lambda x: x[0])
+        selected_stock = st.selectbox('Select stock name:', list(stock_symbols.items()), format_func=lambda x: x[0])
     stock_symbol = selected_stock[1]
     
     with col2:
