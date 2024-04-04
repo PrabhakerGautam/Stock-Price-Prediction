@@ -107,7 +107,7 @@ def main():
    
     #st.title('Download and Visualize Data')
     with col1 :
-        selected_stock = st.selectbox('Select stock symbol:', list(stock_symbols.items()), format_func=lambda x: x[0])
+        selected_stock = st.selectbox('Select stock name:', list(stock_symbols.items()), format_func=lambda x: x[0])
     stock_symbol = selected_stock[1]
     key_ = get_key(stock_symbols, stock_symbol)
     #stock_symbol = st.sidebar.text_input('Enter stock symbol (e.g., AAPL for Apple):')
